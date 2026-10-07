@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-07",
+  "project": "manual-naive-bayes-sentiment",
+  "completion_scope": "experimental project or finished document; not a production certification",
+  "checks": [
+    {
+      "name": "6 mathematical/reference and complete workflow tests passed",
+      "passed": true
+    },
+    {
+      "name": "Fresh local airline workbook run: unique-text split, train-only vocabulary, validation smoothing selection and three held-out model comparisons",
+      "passed": true
+    },
+    {
+      "name": "Manual log probability parity and exact checkpoint prediction reload",
+      "passed": true
+    },
+    {
+      "name": "Every completed notebook code cell executed; published outputs stripped",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Replacement-data single-split experimental experiment; original PA3 dataset not recovered.",
+    "Uncalibrated probabilities; no broad deployment claim. Raw tweets, metadata and fitted vocabulary remain local."
+  ]
+}

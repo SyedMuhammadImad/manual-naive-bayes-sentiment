@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-08",
+  "title": "Procedural Naive Bayes sentiment classifier",
+  "completion_gate_passed": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "60594d7558ea144b1f63798aee0a019ba8f382bf4b716a433e2e68f089a5dad9",
+      "bytes": 82
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "b6b3daae173c67174ab9c768f0adfe8fa50d529b3518f657dfa161f29083c672",
+      "bytes": 525
+    },
+    {
+      "path": "experiment.py",
+      "sha256": "8bc253672f1776bde1dbaa1be10b4552770916c2b73fa3ecc3b809eaedfb6be7",
+      "bytes": 6166
+    },
+    {
+      "path": "manual_bayes.py",
+      "sha256": "ce2558989137cff1acf452c36eb3c3e0bedcaf3213cef816aea623a1b5a2fbd4",
+      "bytes": 3690
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "09bcc2b0c98d0d45e54124a049474a346b801d198e021823fb516108af63f9fc",
+      "bytes": 3830
+    },
+    {
+      "path": "project.ipynb",
+      "sha256": "c9c5401e6a98b103e9b470a13817bd3ca54d01a2fa8965d3d41602871dfbfad4",
+      "bytes": 2611
+    },
+    {
+      "path": "README.md",
+      "sha256": "fd91800e26017a455fb97897bc4b97185b7e7ef4ddeadd94b5c1cbb9ce9d7286",
+      "bytes": 3972
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "88cdcad50a415ac3a51d3367d492cd45a4b431cb36682a11f816b3270d9b72bb",
+      "bytes": 97
+    },
+    {
+      "path": "test_bayes.py",
+      "sha256": "1302f038e72c2222055a85790f6440be58417dce1e60e09b36d92c7a7d437467",
+      "bytes": 2511
+    },
+    {
+      "path": "test_workflow.py",
+      "sha256": "ebea74dc7dd0fc7eb0751d31a832a75f3255cc20ca3a71b03b1e1231a9273db5",
+      "bytes": 2230
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "4842b20ff73f0a8ad949728db1779025091d4ca36702abe508fa1486644bfc85",
+      "bytes": 1003
+    }
+  ]
+}

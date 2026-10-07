@@ -1,0 +1,194 @@
+{
+  "dataset_sha256": "a9c732687e806067bb25a9da8a67164b85db08db34174cfac7e8ad2cdc412773",
+  "seed": 42,
+  "source_rows": 14872,
+  "missing_text_or_label_rows_removed": 239,
+  "usable_distinct_cleaned_texts": 14085,
+  "rows_removed_for_duplicate_empty_or_conflicting_text": 548,
+  "conflicting_cleaned_text_groups_removed": 46,
+  "vocabulary_size": 8619,
+  "split_counts": {
+    "train": 8451,
+    "validation": 2817,
+    "test": 2817
+  },
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "selected_alpha": 0.1,
+  "selection": "validation macro F1 only",
+  "validation_candidates": [
+    {
+      "alpha": 0.1,
+      "validation": {
+        "accuracy": 0.7795527156549521,
+        "macro_f1": 0.69660001651448,
+        "weighted_f1": 0.7725503616451439,
+        "confusion_matrix": [
+          [
+            1630,
+            124,
+            52
+          ],
+          [
+            228,
+            296,
+            55
+          ],
+          [
+            94,
+            68,
+            270
+          ]
+        ]
+      }
+    },
+    {
+      "alpha": 0.5,
+      "validation": {
+        "accuracy": 0.7845225417110401,
+        "macro_f1": 0.6894511070558482,
+        "weighted_f1": 0.7701781941512281,
+        "confusion_matrix": [
+          [
+            1696,
+            80,
+            30
+          ],
+          [
+            271,
+            263,
+            45
+          ],
+          [
+            119,
+            62,
+            251
+          ]
+        ]
+      }
+    },
+    {
+      "alpha": 1.0,
+      "validation": {
+        "accuracy": 0.7646432374866879,
+        "macro_f1": 0.6408120154016278,
+        "weighted_f1": 0.7378717176290172,
+        "confusion_matrix": [
+          [
+            1741,
+            47,
+            18
+          ],
+          [
+            336,
+            211,
+            32
+          ],
+          [
+            177,
+            53,
+            202
+          ]
+        ]
+      }
+    },
+    {
+      "alpha": 2.0,
+      "validation": {
+        "accuracy": 0.7326943556975506,
+        "macro_f1": 0.5569420711820108,
+        "weighted_f1": 0.6817851615147453,
+        "confusion_matrix": [
+          [
+            1786,
+            14,
+            6
+          ],
+          [
+            424,
+            138,
+            17
+          ],
+          [
+            271,
+            21,
+            140
+          ]
+        ]
+      }
+    }
+  ],
+  "models": {
+    "manual_multinomial": {
+      "accuracy": 0.7706780262690806,
+      "macro_f1": 0.685699327488111,
+      "weighted_f1": 0.7613667066685591,
+      "confusion_matrix": [
+        [
+          1624,
+          118,
+          64
+        ],
+        [
+          254,
+          271,
+          55
+        ],
+        [
+          104,
+          51,
+          276
+        ]
+      ]
+    },
+    "sklearn_multinomial": {
+      "accuracy": 0.7706780262690806,
+      "macro_f1": 0.685699327488111,
+      "weighted_f1": 0.7613667066685591,
+      "confusion_matrix": [
+        [
+          1624,
+          118,
+          64
+        ],
+        [
+          254,
+          271,
+          55
+        ],
+        [
+          104,
+          51,
+          276
+        ]
+      ]
+    },
+    "sklearn_one_vs_rest": {
+      "accuracy": 0.77209797657082,
+      "macro_f1": 0.6829749504248231,
+      "weighted_f1": 0.7609027134435099,
+      "confusion_matrix": [
+        [
+          1640,
+          106,
+          60
+        ],
+        [
+          263,
+          258,
+          59
+        ],
+        [
+          103,
+          51,
+          277
+        ]
+      ]
+    }
+  },
+  "manual_reference_log_probability_parity": true,
+  "checkpoint_reload_identical": true
+}
